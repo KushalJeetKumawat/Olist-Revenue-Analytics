@@ -4,7 +4,7 @@
 ## Project Overview 
 
 ### Context
-This project analyzes an e-commerce dataset to understand key drivers of business performance, focusing on customer behavior, revenue trends, and product performance. The objective is to identify how revenue is generated, evaluate customer purchasing patterns, and assess the contribution of products and customer segments to overall growth. The analysis is based on the Olist dataset, which includes information on customers, orders, payments, and products. Key deliverables include core business metrics (such as total revenue and average order value), time-based trend analysis, customer segmentation (including repeat vs one-time customers), product performance insights, and advanced analyses such as revenue concentration, growth trends, and ranking of high performing entities.
+This project analyzes an e-commerce dataset to understand key drivers of business performance, focusing on customer behavior, revenue trends, and product performance. The objective is to identify how revenue is generated, evaluate customer purchasing patterns, and assess the contribution of products and customer segments to overall growth. The analysis is based on the Olist dataset, which includes information on customers, orders, payments, and products. Key deliverables include core business metrics (such as total revenue and average order value), time-based trend analysis, customer segmentation (including repeat vs one-time customers), product performance insights, and advanced analysis such as revenue concentration, growth trends, and ranking of high performing entities.
 
 This analysis focuses on four key areas:
 <p>
@@ -31,10 +31,10 @@ The analysis is based on the Olist e-commerce dataset, which contains transactio
     <td>customers</td>
     <td>Customer identifiers and location data</td>
   </tr>
-  <td>
+  <tr>
     <td>orders</td>
     <td>Order details and purchase timestamps</td>
-  </td>
+  </tr>
   <tr>
     <td>order_payments</td>
     <td>Payment values and transaction information</td>    
@@ -70,14 +70,14 @@ The analysis is based on the Olist e-commerce dataset, which contains transactio
   <td>Nearly half of users do not place orders, indicating a significant drop-off from acquisition to purchase</td>
 </tr>
   <tr>
-  <td>One-time customers</td>
+  <td>One-time Customers</td>
   <td>98.3%</td>
   <td>Almost all customers purchase only once, highlighting extremely weak retention</td>
 </tr>
   <tr>
   <td>Repeat Customers</td>
   <td>1.7%</td>
-  <td>Very small loyal customer base, limiting long term revenue stability</td>
+  <td>Very small loyal customer base, limiting long-term revenue stability</td>
 </tr>
   <tr>
     <td colspan="3"><b>Revenue & Growth Behavior</b></td>
@@ -134,12 +134,12 @@ The analysis is based on the Olist e-commerce dataset, which contains transactio
    - Reduce friction: clear pricing, faster pages
    - Use remarketing (cart abandonment emails/ads)
 
-3. **Stabalize Revenue Growth**
+3. **Stabilize Revenue Growth**
    - Identify peak drivers (campaigns/seasonality) and replicate
    - Build always-on campaigns (email, retargeting)
-   - Track MOM KPIs to catch drops early
+   - Track MoM KPIs to catch drops early
 
-4. **Strenthen Product Strategy**
+4. **Strengthen Product Strategy**
    - Identify top categories and increase visibility
    - Bundle products to increase AOV
    - Promote high-margin/high-demand SKUs
@@ -158,11 +158,15 @@ The analysis is based on the Olist e-commerce dataset, which contains transactio
 This analysis highlights key challenges in customer retention, conversion, and growth stability, while also identifying opportunities to improve revenue through better customer lifecycle management and product strategy.
 
 ### Dataset Source 
-
+<p>
+  <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce"target="_blank">
+   <img src="https://img.shields.io/badge/View_Dataset-Olist-7E57C2?style=social&labelColor=E3F2FD&color=EDE7F6"/>
+  </a>
+</p>
 ### Tools & Skills 
 <p>
   <img src="https://img.shields.io/badge/SQL-Advanced-e3f2fd?style=flat&labelColor=ffc107&color=ff7043"/>
-  <img src="https://img.shields.io/badge/MySql-Database-e3f2fd?style=flat&labelColor=ff8c00&color=ffc107"/> 
+  <img src="https://img.shields.io/badge/MySQL-Database-e3f2fd?style=flat&labelColor=ff8c00&color=ffc107"/> 
   <img src="https://img.shields.io/badge/Data%20Analysis-Business%20Insights-e3f2fd?style=flat&labelColor=ff7043&color=ffc107"/> 
   <img src="https://img.shields.io/badge/Window%20Functions-Rank%20%7C%20LAG%20%7C%20NTILE-e3f2fd?style=flat&labelColor=ffc107&color=ff8c00"/>
   <img src="https://img.shields.io/badge/CTE-Query%20Structuring-e3f2fd?style=flat&labelColor=ffc107&color=ff7043"/>
