@@ -2,12 +2,12 @@
 -- Revenue Concentration (Top 20% customers)
 WITH customer_revenue AS(
 SELECT 
-c.customer_unique_id, SUM(p.payment_value) AS revenue
+c.customer_unique_id, SUM(op.payment_value) AS revenue
 FROM customers AS c
 JOIN orders AS o
 ON c.customer_id = o.customer_id
-JOIN order_payments p 
-ON o.order_id = p.order_id
+JOIN order_payments AS op 
+ON o.order_id = op.order_id
 GROUP BY c.customer_unique_id
 ),
 grouped AS(
