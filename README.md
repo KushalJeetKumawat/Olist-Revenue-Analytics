@@ -112,7 +112,7 @@ The analysis is based on the Olist e-commerce dataset, which contains transactio
 </tr>
   <tr>
   <td>Top 10 Product Contribution</td>
-  <td>3.3%</td>
+  <td>~3.3%</td>
   <td>Revenue is widely distributed across products with no heavy reliance on a few items</td>
 </tr>
   <tr>
@@ -129,7 +129,7 @@ The analysis is based on the Olist e-commerce dataset, which contains transactio
    - Introduce incentives: loyalty points / repeat discounts
    - Personalize recommendations using past purchases
 
-2. **Close the Conversion Gap**
+2. **Close the Conversion Gap (~46%)**
    - Optimize checkout (fewer steps, guest checkout)
    - Reduce friction: clear pricing, faster pages
    - Use remarketing (cart abandonment emails/ads)
