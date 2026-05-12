@@ -1,11 +1,10 @@
-
--- Total customers 
-Select COUNT(*) AS total_customers
-From customers;
+ -- Total customers 
+SELECT COUNT(*) AS total_customers
+FROM customers;
 
 -- Total orders
-Select COUNT(*) AS total_orders
-From orders;
+SELECT COUNT(*) AS total_orders
+FROM orders;
  
 -- Customers who placed orders
 SELECT COUNT(DISTINCT c.customer_unique_id) AS ordering_customers
